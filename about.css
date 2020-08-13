@@ -1,0 +1,59 @@
+
+body {
+	background-color: #252a33
+}
+
+.landingfont {
+	font-family: 'Space Mono', monospace;
+}
+
+#console {
+	font-family: 'Fira Mono', Consolas, Menlo, Monaco, 'Courier New', Courier, monospace;
+	color: #fff;
+	width:95%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:30px;
+	font-size:20px;
+}
+
+a {
+	font-family: 'Fira Mono', Consolas, Menlo, Monaco, 'Courier New', Courier, monospace;
+	color: #0bc;
+	text-decoration: none;
+}
+
+.c1 {
+	color: hsla(205, 80%, 82%, 1);
+}
+
+.nes-font {
+	font-family: "Press Start 2P"
+}
+
+#a {
+	color: #0f0;
+}
+
+#c {
+	color: #0bc;
+}
+
+#b {
+	color: #ff0096;
+}
+
+#k {
+    	animation: change 3s;
+}
+
+#op{
+    	color: #888888
+}
+
+@keyframes change {
+    	0%  { color:  #0f0; }
+    	50% { color:  #0bc; }
+		99% { color: #ff0096; }
+		150% { color:  #0f0; }
+}
